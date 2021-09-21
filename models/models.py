@@ -1,17 +1,17 @@
-# -*- coding: utf-8 -*-
+-*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class sigmass(models.Model):
-#     _name = 'sigmass.sigmass'
-#     _description = 'sigmass.sigmass'
+class assures(models.Model):
+    _name = 'sigmass.sigmass'
+    _description = 'sigmass.sigmass'
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
+    name = fields.Char()
+    value = fields.Integer()
+    value2 = fields.Float(compute="_value_pc", store=True)
+    description = fields.Text()
+
 #     @api.depends('value')
 #     def _value_pc(self):
 #         for record in self:

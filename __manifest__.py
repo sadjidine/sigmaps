@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sigmass",
+    'name': "sigma-ps",
 
     'summary': """
-        Système Intégré de Gestion Maladie & Assistance Sociale""",
+        Système Intégré de Gestion Maladie & Prévoyance Sociale""",
 
     'description': """
-        Plateforme de gestion de l'assurance Maladie et des prestations Sociales. 
+        Plateforme de Gestion de l'Assurance Maladie et de Prévoyance Sociale. 
     """,
 
     'author': "SIGEM",
